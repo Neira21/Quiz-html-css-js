@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/estilos2.css">
+</head>
+<body>
+
+    <div class="Contenedor-Inicial custom-box">
+        <h3>Instrucciones</h3>
+        <p>Total de preguntas <i>5</i> </p>
+        <button type="button" class="Button" >Empezar Quiz</button>
+    </div>
+
+    <div class="Contenedor-Preguntas custom-box">
+        <div class="NumeroPregunta"> Pregunta 1 de 5 </div>
+        <div class="TextoPregunta"> ¿Cuál es tu nombre? </div>
+        <div class="OpcionesRespuesta"> 
+            <div class="option">Hoochv</div>
+            <div class="option">Pongo</div>
+            <div class="option">Sam</div>
+            <div class="option">Sheldon</div>     
+        </div>
+        <div class="SiguientePregunta">
+            <button type="button" class="Button" onclick="next()">Siguiente</button>
+        </div>
+    </div>
+
+    <script src="../js/question.js" ></script>
+    <script src="../js/myApp2.js" ></script>
+</body>
+</html>

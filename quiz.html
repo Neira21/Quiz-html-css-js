@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <div class="home-box custom-box">
+        <h3>Instrucciones</h3>
+        <p>Total de preguntas: <span class="total-question"></span></p>
+        <button type="button" class="btn" onclick="startQuiz()"> Empezar Quiz</button>
+    </div>
+
+    <div class="question-box custom-box hide" >
+        <div class="question-number">
+            
+        </div>
+        <div class="question-text">
+
+        </div>
+        <div class="option-container">
+            <!-- 
+                <div class="option">Hoochv</div>
+                <div class="option">Pongo</div>
+                <div class="option">Sam</div>
+                <div class="option">Sheldon</div> 
+            -->
+        </div>
+        
+        <div class="next-question-btn">
+            <button type="button" class="btn" onclick="next()">Siguiente</button>
+        </div>
+        <div class="answers-indicador">
+
+        </div>
+    </div>
+    
+    <div class="result-box custom-box hide">
+        <h1>Resultado del Quiz</h1>
+        <table>
+            <tr>
+                <td>Total de preguntas</td>
+                <td> <span class="total-question"></span> </td>
+            </tr>
+            <tr>
+                <td>Intentos</td>
+                <td> <span class="total-attemps"></span> </td>
+            </tr>
+            <tr>
+                <td>Correctas</td>
+                <td> <span class="total-correct"></span> </td>
+            </tr>
+            <tr>
+                <td>Erradas</td>
+                <td> <span class="total-wrong"> </span></td>
+            </tr>
+            <tr>
+                <td>Porcentaje</td>
+                <td> <span class="percentage"></span> </td>
+            </tr>
+            <tr>
+                <td>Puntaje Total</td>
+                <td> <span class="total-score"></span> </td>
+            </tr>
+        </table>
+        <div class="boton">
+            <button type="button" class="btn" onclick="tryAgainQuiz()"> Intenta nuevo</button>
+            <button type="button" class="btn" onclick="goToHome()"> Ir al inicio</button>
+        </div>
+        
+    </div>
+
+    <script src="../js/question.js"></script>
+    <script src="../js/myApp.js"></script>
+</body>
+</html>

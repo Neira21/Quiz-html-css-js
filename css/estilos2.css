@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(112, 183, 245);
+    font-weight: 400;
+}
+
+.hide{
+    display: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+.custom-box{
+    background-color: rgb(57, 57, 235);
+    width: 700px;
+    margin: 24px 0 0;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+.Contenedor-Inicial h3{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.Contenedor-Inicial p{
+    font-size: 20px;   
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.Button{
+
+    background-color: rgba(16, 16, 56, 0.425);
+    padding: 15px 40px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 0px;
+    cursor: pointer;
+    border: none;
+}
+
+
+.NumeroPregunta {
+    font-size: 18px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+
+.TextoPregunta{
+    font-size: 22px;
+    padding: 10px 10px;
+}
+.option{
+    font-size: 20px;
+    margin: 15px;
+    background-color: #0B066C;
+    padding: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+}

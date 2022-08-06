@@ -1,0 +1,146 @@
+body{
+    margin:0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D8F0EF	;
+    font-weight: 400; /*Buscar*/
+}
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box; /* Border-box o Content-box /*
+    Por defecto se utiliza Content-box
+    */
+}
+
+.hide{
+    display: none;
+}
+
+/*Primera pantalla*/
+
+.custom-box{
+    background-color: #356BF6;
+    max-width: 700px;
+    color: white;
+    margin: 100px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.home-box h3{
+    font-size: 25px;
+    margin-bottom:20px;
+    font-weight: 500;
+    line-height: 25px;
+}
+.home-box p{
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+
+/* Por defecto los div tienen la propiedad display:block y estará uno debajo del otro
+   display:inline significa que los div se alinien en horizontal y también solo respetaran el 
+   alto y ancho del contenido
+   el inline-block, es una combinación de ambos y se quedan en horizontal y respetan el ancho y alto del contenido
+*/
+
+
+.btn{
+    padding: 15px 50px;
+    background-color: #0B066C;
+    color: white;
+    border:none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/*Segunda pantalla*/
+.question-number{
+    font-size: 18px;
+    border-bottom: 1px solid;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
+.question-text{
+    font-size: 22px;
+    padding: 10px 10px;
+}
+.option{
+    margin: 15px;
+    background-color: #0B066C;
+    padding: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 0;
+    animation: fadeIn 0.3s ease forwards
+}
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.already-answered{
+    pointer-events: none;
+}
+
+.next-question-btn{
+    margin-left: 12px;
+    margin-bottom: 25px;
+}
+.answers-indicador{
+    border-top: 1px solid;
+}
+
+.answers-indicador div{
+    margin-left: 10px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    display: inline-block;
+}
+/*Tercera pantalla*/
+
+.result-box h1{
+    font-size: 36px;
+    line-height: 42px;
+    color: #D8F0EF;
+}
+
+.result-box table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0px;
+}
+
+.result-box table td{
+    border: 1px solid white;
+    padding: 8px;
+    width: 50%;
+    text-align: center;
+}   
+
+img{
+    max-width: 100%;
+    display: block;
+    margin-top: 15px;
+}
+
+@media(max-width: 767px) {
+    .result-box .btn{
+        margin-bottom: 15px;
+    }
+    body{
+        padding: 15px;
+    }
+}
