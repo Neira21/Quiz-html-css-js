@@ -20,7 +20,7 @@ const quiz = [
         q:'¿Quien es este personaje?',
         options:['Kirby', 'Sans', 'Sonic'],
         answer: 0,
-        img:'../img/kirby.png'
+        img:'img/kirby.png'
     },
     {
         q:'¿Cuál de estos pokemon es de tipo fantasma/veneno?',
