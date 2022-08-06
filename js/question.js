@@ -8,19 +8,19 @@ const quiz = [
         q:'Seleccione al cual pertenece la siguiente sentencia: cout << "Hola Mundo"',
         options:['Python', 'C#', 'C++', 'Java'],
         answer: 2,
-        img:'../img/c++.png'
+        img:'./img/c++.png'
     },
     {
         q:'¿Cómo se llama este personaje?',
         options:['Peter', 'Homero', 'Randy'],
         answer: 1,
-        img:'../img/homero.jpg'
+        img:'./img/homero.jpg'
     },
     {
         q:'¿Quien es este personaje?',
         options:['Kirby', 'Sans', 'Sonic'],
         answer: 0,
-        img:'../img/kirby.jpg'
+        img:'./img/kirby.jpg'
     },
     {
         q:'¿Cuál de estos pokemon es de tipo fantasma/veneno?',
